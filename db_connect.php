@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "telephony";
+$dbname = "iptelephony";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
