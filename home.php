@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Contacts</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
             background-image: url("img/jkuat.jpg");
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+
         }
     </style>
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -41,9 +49,10 @@
         window.onload = loadCampuses;
     </script>
 </head>
+
 <body>
     <header>
-    <div class="logo">
+        <div class="logo">
             <img src="img/download.JPEG" alt="Institution Logo">
         </div>
         <div class="institution-info">
@@ -66,4 +75,5 @@
         </div>
     </div>
 </body>
+
 </html>
